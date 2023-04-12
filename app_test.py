@@ -36,7 +36,7 @@ def test_loan_discount_factor():
     assert loan.getDiscountFactor() == pytest.approx(
         166.79, rel=1e-3
     )  # approx two decimal places
-
+ 
 
 def test_loan_payment():
     """
